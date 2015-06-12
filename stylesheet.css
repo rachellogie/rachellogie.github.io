@@ -1,0 +1,79 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    min-height: 100px;
+    background-color: #d2e1dd;
+}
+
+.blue {
+    background-color: #003366;
+}
+
+.purple {
+    background-color: #998099;
+}
+
+.pink {
+    background-color: #b37399;
+}
+
+.bright-pink {
+    background-color: #CC6699;
+}
+
+.light-teal {
+    background-color: #d2e1dd;
+}
+
+.teal {
+    background-color: #699;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    background-color: #111b1b;
+    color: transparent;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.7);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+/*this needs to happen for responsive ness*/
+/*div {*/
+    /*min-height: 80px;*/
+/*}*/
+
+div.clickable {
+    -moz-box-shadow:    inset 0 0 20px #000000;
+    -webkit-box-shadow: inset 0 0 20px #000000;
+    box-shadow:         inset 0 0 20px #000000;
+}
+
+div.clickable:hover {
+    background-color: mediumblue;
+}
+
+.shadow {
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.breaker {
+    height: 40px;
+}
+
+.item {
+    background-color: black;
+}
+
+.item img {
+    max-height: 75vh !important;
+}
+
+.main-page div {
+    height: 25vh;
+}
+
+
