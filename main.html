@@ -7,70 +7,40 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-<body>
+<body class="main">
 
 <!--how to hide certain boxes on xs-->
 
-<div class="main-page">
+<div class="col-xs-12 col-sm-7">
 
-    <div class="row hidden-xs">
-        <div class="col-xs-12 col-sm-3 green tile"></div>
-        <div class="col-xs-12 col-sm-3 orange tile"></div>
-        <div class="col-xs-12 col-sm-3 pink tile"></div>
-        <div class="col-xs-12 col-sm-3 pink tile"></div>
+
+    <div class="col-md-10 col-md-offset-2 vcenter">
+        <h1 class="text-left main-title">Hi, I'm Rachel.</h1>
+        <h2 class="text-left main-title">Shall we...</h2>
+
+        <div class="breaker"></div>
+        <ul class="list-inline hidden-xs">
+            <li><a href="code.html">code</a></li>
+            <li><a href="dance.html">dance</a></li>
+            <li><a href="eat.html">eat</a></li>
+            <li><a href="travel.html">travel</a></li>
+        </ul>
+
+
     </div>
 
-    <div class="row">
-        <div class="col-xs-12 col-sm-3 blue hidden-xs tile"></div>
-        <a href="dance.html">
-            <div class="col-xs-12 col-sm-3 green clickable tile">
-                <h1>
-                    Dance
-                </h1>
-            </div>
-        </a>
 
-        <a href="eat.html">
+    <nav class="visible-xs">
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="code.html">code</a></li>
+            <li><a href="dance.html">dance</a></li>
+            <li><a href="eat.html">eat</a></li>
+            <li><a href="travel.html">travel</a></li>
+        </ul>
+    </nav>
 
-            <div class="col-xs-12 col-sm-3 orange clickable tile">
-                <h1>
-                    Eat
-                </h1>
-            </div>
-        </a>
-
-        <div class="col-xs-12 col-sm-3 orange hidden-xs tile"></div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-3 blue hidden-xs tile"></div>
-        <a href="code.html">
-
-            <div class="col-xs-12 col-sm-3 green clickable tile">
-                <h1>
-                    Code
-                </h1>
-            </div>
-        </a>
-        <a href="travel.html">
-
-            <div class="col-xs-12 col-sm-3 green clickable tile">
-                <h1>
-                    Travel
-                </h1>
-            </div>
-        </a>
-
-        <div class="col-xs-12 col-sm-3 green hidden-xs tile"></div>
-    </div>
-
-    <div class="row hidden-xs">
-        <div class="col-xs-12 col-sm-3 blue tile"></div>
-        <div class="col-xs-12 col-sm-3 blue tile"></div>
-        <div class="col-xs-12 col-sm-3 blue tile"></div>
-        <div class="col-xs-12 col-sm-3 blue tile"></div>
-    </div>
 </div>
+
 
 </body>
 </html>
